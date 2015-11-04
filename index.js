@@ -15,6 +15,6 @@ function respond() {
   };
 };
 
-app.get('/tugas4/server', respond());
+app.use(respond());
 
 app.listen(9000);
